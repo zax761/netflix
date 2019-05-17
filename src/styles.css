@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: black;
+  color: green;
+}
+
+h1 {
+  text-align: center;
+}
+
+.List {
+  margin: 1rem;
+}
+
+.Show {
+  position: relative;
+  height: 14rem;
+  margin: 1rem;
+  text-align: center;
+}
+
+.Show:hover > button {
+  cursor: pointer;
+  display: inline-block;
+}
+
+p {
+  text-align: center;
+}
+
+button {
+  display: none;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  /* transform: translate(0%, -0.26rem); */
+}
+
+li {
+  display: inline;
+  margin: 1rem;
+}
+
+li > div {
+  display: inline-block;
+}
+
+img {
+  height: 14rem;
+}
